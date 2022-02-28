@@ -14,13 +14,13 @@ import {MatDialogModule} from '@angular/material/dialog';
 import{ AngularFirestoreModule } from '@angular/fire/firestore'
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDqeIeHdTodMCizOlA6uAxn7S0qAT7h3Ws",
-  authDomain: "proxoloo.firebaseapp.com",
-  projectId: "proxoloo",
-  storageBucket: "proxoloo.appspot.com",
-  messagingSenderId: "256159945638",
-  appId: "1:256159945638:web:45388f7e0073d3cf523567",
-  measurementId: "G-TTMHVYJPXE"
+  apiKey: "",
+  authDomain: "",
+  projectId: "o",
+  storageBucket: "m",
+  messagingSenderId: "",
+  appId: "",
+  measurementId: ""
 };
 @NgModule({
   declarations: [
