@@ -1,0 +1,22 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+<div class="main">
+  <h2>Hello There</h2>
+
+<div class="input-container">
+  <i class="fa fa-user icon"></i>
+  <input class="input-field" id="name" type="text" placeholder="Name" name="usrnm" required ngModel>
+</div>
+
+<div class="input-container">
+  <i class="fa fa-envelope icon"></i>
+  <input class="input-field" type="text" id="email" placeholder="Email" name="email" required ngModel>
+</div>
+
+<div class="input-container">
+  <i class="fa fa-send icon"></i>
+  <input class="input-field" type="address" id="message" placeholder="message" name="psw" required ngModel>
+</div>
+<button type="submit" class="btn" (click)="send()" >send</button>
+
+</div>

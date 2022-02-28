@@ -1,0 +1,116 @@
+
+.home{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: auto;
+    /* background-color:#000249; */
+}
+.home-panel{ 
+    width: 80%;
+    height: 80%;
+    margin: 50px auto;
+    /* background-color:red; */
+    display: flex;
+}
+.intro{
+    position: relative;
+    top: 30%;
+}
+p{
+     font-size:40px;
+     font-family: sans-serif;
+     padding: 10px;
+}
+.name{
+   
+    font-weight:bolder;
+   
+}
+.btn-projects,.btn-hire-me{ 
+    margin: 30px;
+    padding: 10px;
+    font-family: Work Sans;
+font-size: 36px;
+font-style: normal;
+font-weight: 600;
+line-height: 42px;
+letter-spacing: 0em;
+text-align: left;
+border: none;
+border-radius: 10px;
+cursor: pointer;
+}
+.btn-projects{
+    background-color:black;
+    color:#AFA2FF;
+    transition-duration: .1s;
+    
+}
+.btn-hire-me{
+    background-color:#AFA2FF;
+}
+.btn-projects:hover{
+    background-color:#10b956;
+    color:black;
+}
+.btn-hire-me:hover{
+    background-color:rgb(9, 138, 170);
+    color:#000000;
+}
+.home-dots{ 
+    width:40%;
+    height: 100%;
+    margin-left: 10%;
+    position: relative;
+}
+ .eclipse1,.eclipse2,.eclipse3{
+    position: absolute;
+    top: 0;
+    width: 300px;
+    height: 350px;
+    transform: rotate(-10deg);
+    border-radius:50%;
+ }
+ .eclipse1{
+    margin: 16% 25% ;
+    background-color: #7682F5;
+ }
+ .eclipse2{
+     background-color: #0F50F5;
+     margin:20% 10%;
+ }
+ .eclipse3{
+     background-color: #1B45B1;
+     margin:20% 20%;
+     background-image: url(src\assets\myself.png);
+     background-size: cover;
+
+ }
+  
+ @media screen and (max-width: 500px) {
+   .home-dots{
+       display: block;
+       
+   }
+   .eclipse1,.eclipse2,.eclipse3{
+      position: absolute;
+    left: -150px;
+      width: 150px;
+      height: 150px;
+   }
+   .eclipse1{
+       margin: 10px 50px;
+   }
+   .eclipse2{
+       margin: 20px -10px;
+   }
+   .intro{
+       margin-top: 50px;
+   }
+   p{
+       font-size: 26px;
+       padding:1px;
+       line-height:30px;
+   }
+  }
